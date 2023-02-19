@@ -1,0 +1,70 @@
+@font-face {
+    font-family: myFont;
+    src: url("fonts/font.ttf");
+}
+
+.flex {
+    display: flex;
+    gap: 30px;
+    background-color: #eff6ff;
+    justify-content: center;
+}
+
+.items a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 30px;
+
+}
+
+.hero {
+    background-image: url(Group.png);
+}
+
+.hero {
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: myFont;
+    color: #1D4ED8;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.hero {
+    margin-top: 30px;
+}
+
+.hero p {
+    font-family: myFont;
+    color: #3B82F6;
+}
+
+.text-center {
+    margin-left: 60px;
+}
+
+.hero img {
+    width: 600px;
+}
+
+.blogs .wrapper {
+    display: flex;
+    gap: 100px;
+}
+
+.card-title{
+    color: #1E3A8A;
+    font-weight: bold;
+}
+.text-muted{
+    color: #4B5563;
+}
+.card-text{
+    color: #374151;
+}
