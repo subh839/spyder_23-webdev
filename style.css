@@ -24,7 +24,10 @@
     width: 30px;
 
 }
-
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 .hero {
     background-image: url(images/Group.png);
 }
