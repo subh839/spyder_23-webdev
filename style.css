@@ -26,7 +26,7 @@
 }
 
 .hero {
-    background-image: url(Group.png);
+    background-image: url(images/Group.png);
 }
 
 .hero {
@@ -87,7 +87,7 @@
 }
 
 .details {
-    background-image: url(vectorbg.png);
+    background-image: url(images/vectorbg.png);
 }
 .butn {
     -webkit-border-radius: 6;
@@ -110,4 +110,17 @@
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+  }
+  .buttn{
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 4px;
+    border-color: #1E40AF;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #1E40AF;
+    text-decoration: none;
+    padding: 5px;
+    width: 218px;
   }
