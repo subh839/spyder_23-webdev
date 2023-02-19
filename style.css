@@ -137,10 +137,6 @@
     width: 100%;
     gap: 20px;
   }
-.dark-mode {
-    background-color: black;
-    color: white;
-  }
   footer .item{
     width: 100%
   }
@@ -157,4 +153,12 @@ footer i{
 }
 footer .container{
     margin-top: 30px;
+}
+.bull h3, .bull h4{
+    display: inline;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.bull{
+    padding-bottom: 10px;
 }
