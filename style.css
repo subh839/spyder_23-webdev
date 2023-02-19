@@ -24,10 +24,7 @@
     width: 30px;
 
 }
-.dark-mode {
-    background-color: black;
-    color: white;
-  }
+
 .hero {
     background-image: url(images/Group.png);
 }
@@ -83,6 +80,7 @@
 .arrow {
     height: 100%;
     padding-top: 10%;
+    cursor: pointer;
 }
 
 .alert p {
@@ -126,4 +124,37 @@
     text-decoration: none;
     padding: 5px;
     width: 218px;
+    height: 40px;
   }
+  footer{
+    background-image: url(images/FooterBackground.png);
+  }
+  footer img{
+    width: 30px;
+  }
+  footer .wrapper{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  footer .item{
+    width: 100%
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+}
+.sde{
+    font-size: 50px;
+    color: white;
+}
+footer i{
+    font-size: 30px;
+}
+footer .container{
+    margin-top: 30px;
+}
