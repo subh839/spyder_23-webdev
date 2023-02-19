@@ -29,7 +29,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item" style="padding-right: 20px;">
-                        <img src="images/Icon.png" alt="">
+                        <img src="images/Icon.png" alt="" onclick="myFunction()">
+                        
                     </li>
                     <li class="nav-item" style="padding-right: 20px;">
                         <img src="images/search.png" alt="">
@@ -142,7 +143,12 @@
           </div>
         </div>
       </section>
-
+      <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
 </body>
 
 </html>
